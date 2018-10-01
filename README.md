@@ -18,4 +18,4 @@ Access the **Application Express Administration Services** using this [*link*](h
 
 ### Available tags:
 
-- Oralcle XE 11.2.0.2 ([xe-11.2.0.2](https://github.com/parrotstream/docker-oracledb/blob/xe-11.2.0.2/Dockerfile), [latest](https://github.com/parrotstream/docker-oracledb/blob/latest/Dockerfile))
+- Oralcle XE 11.2.0.2 ([xe-11.2.0.2](https://github.com/parrot-stream/docker-oracledb/blob/xe-11.2.0.2/Dockerfile), [latest](https://github.com/parrot-stream/docker-oracledb/blob/latest/Dockerfile))
