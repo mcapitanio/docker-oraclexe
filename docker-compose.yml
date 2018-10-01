@@ -1,0 +1,22 @@
+version: "3"
+services:
+  oracledb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: parrotstream/oracledb-xe:11.2.0.2
+    networks:
+    - parrot
+    ports:
+    - 1521:1521
+    - 8080:8080
+    volumes:
+    - oracledb_oradata:/u01/app/oracle/oradata
+    environment:
+      ORACLE_PWD: parrot
+    shm_size: 1g
+volumes:
+  oracledb_oradata:
+networks:
+  parrot:
+    driver: bridge
