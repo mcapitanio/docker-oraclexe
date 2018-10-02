@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: parrotstream/oracledb:11.2.0.2
+    image: parrotstream/oracledb:xe-11.2.0.2
     networks:
     - parrot
     ports:
